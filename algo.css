@@ -1,0 +1,8 @@
+body>div{
+    background:red;
+    width:50%;
+    height:300px;
+    padding:90px;
+    box-sizing: border-box;
+    background-clip: content-box;
+}

@@ -5,33 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fomulario</title>
     <link rel="stylesheet" href="formulario.css">
 </head>
 
 <body>
-    <form>
-        <h3>Introduce tu email y contraseña para iniciar sesión.</h3>
-        <div>
-            <label for="email">Correo electrónico</label><br>
-            <input type="email" id="email" name="email">
-        </div>
-        <div>
-            <label for="passwd">Contraseña </label><br>
-            <input type="password" id="passwd" name="passwd">
-            <button type="button" id="showPasswd">Mostrar</button>
-        </div>
-        <input type="checkbox" id="recordarPasswd" name="recordar" checked="checked">
-        <label for="recordarPasswd">Recordarme</label>
-        <a href="#">¿Olvidaste tu contraseña?</a>
-        <button type="submit">Iniciar sesion</button>
-    </form>
-    <p>O continuar con</p>
-    <a href="#"><img src="" alt="Logo Google" with="10" height="10"> Google</a>
-    <a href="#"><img src="" alt="Logo Facebook" with="10" height="10"> Facebook</a>
-    <a href="#"><img src="" alt="Logo Apple" with="10" height="10"> Apple</a>
-    <a href="#"><img src="" alt="Logo Microsoft" with="10" height="10"> Microsoft</a>
-    <p>¿No tienes una cuenta?<a href="#">Registrate</a></p>
+    <main>
+        <article>
+            <h1>Iniciar sesion</h1>
+            <form action="#" method="post" autocomplete="on" aria-describedby="login-help">
+                <div id="login-help" class="sr-only">Introduce tu email y contraseña para iniciar sesión.</div>
+
+                <div>
+                    <!-- Renderiza debajo el siguiente elemento -->
+                    <label for="email">Correo electrónico</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="passwd">Contraseña </label><br>
+                    <input type="password" id="passwd" name="passwd">
+                    <button type="button" id="showPasswd">Mostrar</button>
+                </div>
+                <input type="checkbox" id="recordarPasswd" name="recordar" checked="checked">
+                <label for="recordarPasswd">Recordarme</label>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button type="submit">Iniciar sesion</button>
+            </form>
+            <p>O continuar con</p>
+            <a href="#"><img src="" alt="Logo Google" with="10" height="10"> Google</a>
+            <a href="#"><img src="" alt="Logo Facebook" with="10" height="10"> Facebook</a>
+            <a href="#"><img src="" alt="Logo Apple" with="10" height="10"> Apple</a>
+            <a href="#"><img src="" alt="Logo Microsoft" with="10" height="10"> Microsoft</a>
+            <p>¿No tienes una cuenta?<a href="#">Registrate</a></p>
+
+        </article>
+    </main>
 </body>
 
 </html>

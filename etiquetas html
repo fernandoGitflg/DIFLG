@@ -1,0 +1,2 @@
+<div></div> se reserva todo el ancho y renderiza el siguiente elemento debajo
+<span></span>se reserva solo su contenido en linea
