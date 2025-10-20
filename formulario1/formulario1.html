@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario</title>
+    <link rel="stylesheet" href="./formulario.css">
+</head>
+
+<body>
+    <main>
+        <article>
+            <h1>Iniciar sesion</h1>
+            <form action="#" method="post" autocomplete="on" aria-describedby="login-help">
+                <!--<div id="login-help" class="sr-only">Introduce tu email y contraseña para iniciar sesión.</div>-->
+
+                <div>
+                    <!-- Renderiza debajo el siguiente elemento -->
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="passwd">Contraseña </label>
+                    <input type="password" id="passwd" name="passwd">
+                    <button type="button" id="showPasswd">Mostrar</button>
+                </div>
+                <div class="recordar">
+                    <input type="checkbox" id="recordarPasswd" name="recordar" checked="checked">
+                    <label for="recordarPasswd">Recordarme</label>
+                    <a href="#" class="olvidarPasswd">¿Olvidaste tu contraseña?</a>
+                </div>
+                <button type="submit">Iniciar sesion</button>
+            </form>
+            <p>O continuar con</p>
+            <div class="social-login">
+                <a href="#"><img src="./img/google-logo.png" alt="Logo Google"> Google</a>
+                <a href="#"><img src="./img/Facebook_Logo_(2019).png" alt="Logo Facebook"> Facebook</a>
+                <a href="#"><img src="./img/Microsoft-Logo.png" alt="Logo Microsoft"> Microsoft</a>
+                <a href="#"><img src="./img/apple.png" alt="Logo Apple"> Apple</a>
+            </div>
+            <p>¿No tienes una cuenta?<a href="#">Registrate</a></p>
+
+        </article>
+    </main>
+</body>
+
+</html>

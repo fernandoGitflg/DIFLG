@@ -1,0 +1,135 @@
+/* Fondo general */
+body {
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+main {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333333;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Etiquetas */
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+/* Campos de entrada */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+#showPasswd {
+  margin-top: 8px;
+  background-color: #eeeeee;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  float: right;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Etiqueta del checkbox */
+label[for="recordarPasswd"] {
+  font-size: 14px;
+  color: #242424;
+}
+label[for="olvidarPasswd"] {
+  text-align: right;
+}
+
+/* Enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botón de inicio de sesión */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #10457d;
+}
+
+/* Texto general */
+p {
+  text-align: center;
+  margin: 16px 0;
+  color: #666666;
+}
+
+/* Imágenes dentro de enlaces */
+a img {
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 30px;
+  height: auto;
+}
+
+/* Botones de redes sociales */
+.social-login a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px 0;
+  background-color: #f9f9f9;
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+}
+
+.social-login a:hover {
+  background-color: #bcbcbc;
+}
