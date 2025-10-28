@@ -23,8 +23,10 @@
                 </div>
                 <div>
                     <label for="passwd">Contraseña </label>
-                    <input type="password" id="passwd" name="passwd">
-                    <button type="button" id="showPasswd">Mostrar</button>
+                    <div class="error-btn">
+                        <input type="password" id="passwd" name="password" required>
+                        <button type="button" id="showPasswd">Mostrar</button>
+                    </div>
                 </div>
                 <div class="recordar">
                     <input type="checkbox" id="recordarPasswd" name="recordar" checked="checked">

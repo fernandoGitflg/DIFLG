@@ -1,29 +1,27 @@
-/* Fondo general */
+*{
+  box-sizing: border-box;
+}
+h1{
+  margin:0;
+}
 body {
   background-color: #f4f6f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: "segoe UI", Roboto, "Helvetica Neue", Arial, l sans-serif;
+  line-height: 1.5;
+  color: #333;
+  padding: 20px;
+  font-size: 16px;
 }
-
-/* Contenedor principal */
 main {
-  width: 100%;
-  max-width: 400px;
-  background-color: #ffffff;
-  padding: 32px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding:2em;
+  border-radius:.75em;
+  display: inline-block;
+  width:clamp(500px,60vw,650px);  
 }
-
-/* Título */
 h1 {
-  text-align: center;
-  margin-bottom: 24px;
-  color: #333333;
+  font-size:clamp();
 }
-
 /* Formulario */
 form {
   display: flex;
