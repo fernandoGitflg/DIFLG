@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-areas:
+        "diseño desarrollo seo"
+        "diseño desarrollo seo"
+        "diseño desarrollo marketing"
+        "diseño desarrollo marketing"
+        "diseño desarrollo contacto"
+        "diseño portfolio contacto"
+        "diseño portfolio contacto"
+        "diseño portfolio contacto";
+
+    gap: 0;       
+    padding: 0;   
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+article {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+article img.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+article .contenido {
+    position: relative;
+    padding: 20px;
+}
+
+.diseño {
+    grid-area: diseño;
+    color: white;
+
+}
+
+.desarrollo {
+    grid-area: desarrollo;
+    color: white;
+
+}
+
+.portfolio {
+    grid-area: portfolio;
+    color: white;
+
+}
+
+.seo {
+    grid-area: seo;
+    color: black;
+}
+
+.marketing {
+    grid-area: marketing;
+    color: white;
+
+}
+
+.contacto {
+    grid-area: contacto;
+    color: black;
+
+}
+
